@@ -1,0 +1,32 @@
+.Home{
+ background-image: url(https://p4.wallpaperbetter.com/wallpaper/666/355/720/marvel-studios-4k-best-of-the-best-wallpaper-preview.jpg);
+ height: 100vh;
+}
+
+.header > h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.header > p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.Carousel.Caption p{
+    color: #a2d2ff;
+}
+
+
+.d-block{ 
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+

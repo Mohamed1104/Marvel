@@ -1,0 +1,12 @@
+.comics-header{
+    text-align: center;
+    padding: 10px; 
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+  }
+
+  .the-back > h3{
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
