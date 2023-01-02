@@ -14,4 +14,5 @@ Each page offers something different. The Home page shows all the latest movies 
 - Bootstrap
 - Improved my Css styling
 - Ternary operators
+- Custom Hooks
 
