@@ -5,7 +5,7 @@ import "./comic.css";
 import ComicCard from "./comics-card";
 
 function Comics() {
-  const url = `http://gateway.marvel.com/v1/public/comics?dateRange=2022-01-01%2C2022-12-27&ts=1&apikey=a4677ae4657491566008cecd5f1c2ad9&hash=e0acf00d7a9c19aceb8fb683d5efe5b0`;
+  const url = `https://gateway.marvel.com/v1/public/comics?dateRange=2022-01-01%2C2022-12-27&ts=1&apikey=a4677ae4657491566008cecd5f1c2ad9&hash=e0acf00d7a9c19aceb8fb683d5efe5b0`;
   const { data: comics } = useFetch(url);
   console.log(comics?.results);
   const results = comics?.results;
