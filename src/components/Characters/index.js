@@ -22,7 +22,7 @@ function Characters() {
     input === ""
       ? alert("Please enter a character")
       : setUrl(
-          `http://gateway.marvel.com/v1/public/characters?nameStartsWith=${input}&ts=1&apikey=a4677ae4657491566008cecd5f1c2ad9&hash=e0acf00d7a9c19aceb8fb683d5efe5b0`
+          `https://gateway.marvel.com/v1/public/characters?nameStartsWith=${input}&ts=1&apikey=a4677ae4657491566008cecd5f1c2ad9&hash=e0acf00d7a9c19aceb8fb683d5efe5b0`
         );
     setInput("");
   }
